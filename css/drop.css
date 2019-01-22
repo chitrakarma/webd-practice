@@ -1,0 +1,55 @@
+#button{
+    height: 3em;
+    width: 8em;
+    margin-left: 45%;
+    margin-top: 30%;
+    padding-top: 2%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#button:hover{
+    box-shadow: 2px 2px 5px lightgray;
+}
+#box{
+    height: 25em;
+    width: 30em;
+    background-color: lightgray;
+    margin-left: 30%;
+    margin-top: -40%;
+    transition: 1s;
+   
+}
+#box:hover{
+    box-shadow: 1px 1px 5px darkgray,1px -1px 5px darkgray,-1px 1px 5px darkgray,-1px -1px 5px darkgray;
+}
+form{
+    padding-left: 15%;
+    padding-top:4%;
+}
+input[type="text"]{
+    height: 3em;
+    width: 25em;
+    display: block;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+input[type="password"]{
+    height: 3em;
+    width: 25em;
+    display: block;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    height: 3em;
+    width: 25em;
+    display: block;
+    margin-left: 1%;
+    margin-top: 8%;
+}
+#heading{
+    font-weight: 600;
+    font-size: 2em;
+    padding-left: 40%;
+    padding-top: 10%;
+}

@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>
+            server side includes
+        </title>
+    </head>
+    <body>
+        <h1>
+            Server side includes
+        </h1>
+        <p>
+            document name = <!-- #echo var="DOCUMENT_NAME" -->
+        </p>
+        <p>
+            document path = <!-- #echo var="DOCUMENT_URL" -->
+        </p>
+        <p>
+            Server Name = <!-- #echo var="SERVER_NAME" -->
+        </p>
+        <p>
+            Local Date = <!-- #echo var="DATE_LOCAL" -->
+        </p>
+        <p>
+            Up Time = <!-- #exec cmd="uptime" -->
+        </p>
+    </body>
+</html>
