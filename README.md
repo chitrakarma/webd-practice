@@ -1,2 +1,6 @@
 # webd-practice
-contains a mixture of different things
+langauge used are 
+  front-end:
+    html, css, js
+  back-end:
+    php
